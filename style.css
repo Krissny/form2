@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.main{
+    display: flex;
+    gap: 116px;
+}
+body{
+    background-color: #331a20;
+}
+.visual{
+    width: 540px;
+    height: 940px;
+}
+.visual img {
+    width: 540px;
+    height: 940px;
+}
+.forminfo >p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.form{
+    width:820px;
+    height: 940px;
+    color: white;
+    padding: 140px 33px 0px 10px;
+    font-size: 1.5em;
+    /* line-height: 33px; */
+    box-sizing: border-box;
+}
+.forminfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.userdetail{
+    padding: 10px;
+    font-size: 22px;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+input, label {
+    display:block;
+}
+input{
+    border: 2px solid white;
+    width: 308px;
+    border-radius: 12px;
+    font-size: 21px;
+    padding: 7px;
+    margin-bottom: 28px;
+}
+label{
+    font-size: 20px;
+}
+.userdetail h3{
+    display: inline;
+}
+.fieldset{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    box-shadow: 0px 4px #251519;
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ec6762;
+    color: white;
+}
+ .logo img {
+    width: 12em;
+    height: 10em;
+    position: absolute;
+ }
+ .logo h2{
+    position: absolute;
+    color: white;
+    left: 155px;
+    top: 48px;
+    font-size: 6em;
+    font-family: 'Gluten', cursive;
+ }
+.last a{
+    border-radius: 9px;
+    text-decoration: none;
+    color: #ec6762;
+}
+/* state selectors */
+input:focus{
+    background-color: #f0b3b1;
+    color: white;
+    box-shadow: 0px 10px #251519;
+    font-weight: bold;
+}
+input:invalid{
+    border: 2px solid red;
+}
